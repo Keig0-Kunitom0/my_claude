@@ -1,6 +1,6 @@
 ---
 name: task-implementer
-description: tasklist.md の単一チェックボックスを実装し、テスト/Lintを通してコミットし、簡潔なレポートを返すエージェント。チェックボックス単位で起動することで各実装をフレッシュなコンテキストで実行し、コンテキストの劣化（context rot）を防ぐ。USE WHEN: スペック駆動開発の実装フェーズで1つのタスクを実装する時。
+description: "tasklist.md の単一チェックボックスを実装し、テスト/Lintを通してコミットし、簡潔なレポートを返すエージェント。チェックボックス単位で起動することで各実装をフレッシュなコンテキストで実行し、コンテキストの劣化（context rot）を防ぐ。USE WHEN: スペック駆動開発の実装フェーズで1つのタスクを実装する時。"
 tools: Read, Edit, Write, Grep, Glob, Bash
 ---
 

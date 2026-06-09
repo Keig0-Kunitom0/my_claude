@@ -1,6 +1,6 @@
 ---
 name: implement-issue-spec-docs
-description: スペック駆動開発のステアリングドキュメント（requirements.md / design.md / tasklist.md）の書き方とテンプレートを提供する。USE WHEN: requirements / design / tasklist を作成・レビューする時。
+description: "スペック駆動開発のステアリングドキュメント（requirements.md / design.md / tasklist.md）の書き方とテンプレートを提供する。USE WHEN: requirements / design / tasklist を作成・レビューする時。"
 ---
 
 # スペック駆動ドキュメントの作成
