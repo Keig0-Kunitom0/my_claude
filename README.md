@@ -72,7 +72,7 @@ gh auth status         # "Logged in to github.com" と表示されればOK
 
 ```sh
 # 例: このリポジトリを一時的に clone してコピーする場合
-git clone https://github.com/<your-account>/implement-issue.git /tmp/implement-issue
+git clone https://github.com/<your-account>/my_claude.git /tmp/implement-issue
 
 # コピー先プロジェクトのルートで実行
 mkdir -p .claude/commands .claude/agents .claude/skills
@@ -86,7 +86,7 @@ cp -r  /tmp/implement-issue/.claude/skills/implement-issue-spec-docs .claude/ski
 #### B. このリポジトリ単体で試す
 
 ```sh
-git clone https://github.com/<your-account>/implement-issue.git
+git clone https://github.com/<your-account>/my_claude.git
 cd implement-issue
 # このディレクトリで Claude Code を起動する
 ```
