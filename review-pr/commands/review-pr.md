@@ -708,22 +708,22 @@ ls -d "<root>/.claude/reviews"   # 実在を確認する
 ## 使用例
 
 ```
-/review-pr https://github.com/{owner}/{repo}/pull/123
+/review-pr https://github.com/{owner}/{repo}/pull/1234
 # 全観点でレビュー（2回目以降は増分のみ）
 
-/review-pr https://github.com/{owner}/{repo}/pull/123 full
+/review-pr https://github.com/{owner}/{repo}/pull/1234 full
 # 増分判定を飛ばして全差分をレビュー
 
-/review-pr https://github.com/{owner}/{repo}/pull/123 test performance
+/review-pr https://github.com/{owner}/{repo}/pull/1234 test performance
 # テストとパフォーマンスのみ
 
-/review-pr https://github.com/{owner}/{repo}/pull/123 api
+/review-pr https://github.com/{owner}/{repo}/pull/1234 api
 # API観点のみ（自動判定を飛ばして強制起動）
 
-/review-pr https://github.com/{owner}/{repo}/pull/123 surrounding
+/review-pr https://github.com/{owner}/{repo}/pull/1234 surrounding
 # 周辺コードの改善点のみ
 
-/review-pr 123
+/review-pr 1234
 # PR番号指定
 
 /review-pr

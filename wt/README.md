@@ -22,7 +22,7 @@ git worktree と herdr ワークスペースを作り、**そこで新しい Cla
 
 ## 前提
 
-- [herdr](https://github.com/) 0.8.0 以降がインストールされ、セッションが起動していること
+- [herdr](https://herdr.dev) 0.8.0 以降がインストールされ、セッションが起動していること
 - `gh` が使えること（`/wt:review` の PR 情報取得に使う）
 - `/wt:issue` は `implement-issue` プラグイン、`/wt:review` は `review-pr` プラグインが
   インストールされていること（**依存はしない**。文字列を送るだけなので、

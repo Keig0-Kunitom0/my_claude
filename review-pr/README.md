@@ -174,23 +174,23 @@ paths: /**/*.rb, /**/*.rake
 
 ```
 # 全観点でレビュー（2回目以降は増分のみ）
-/review-pr https://github.com/{owner}/{repo}/pull/123
+/review-pr https://github.com/{owner}/{repo}/pull/1234
 
 # 増分判定を飛ばして全体を再レビュー
-/review-pr https://github.com/{owner}/{repo}/pull/123 full
+/review-pr https://github.com/{owner}/{repo}/pull/1234 full
 
 # 観点を絞る
-/review-pr https://github.com/{owner}/{repo}/pull/123 test performance
+/review-pr https://github.com/{owner}/{repo}/pull/1234 test performance
 
 # PR番号だけ、あるいは引数なし（カレントブランチから自動検出）
-/review-pr 123
+/review-pr 1234
 /review-pr
 
 # プロジェクト固有のドキュメントを前提知識として読ませる（Markdown なら何でも可）
-/review-pr 123 --context docs/glossary.md
+/review-pr 1234 --context docs/glossary.md
 
 # 複数指定・他のオプションとの併用もできる
-/review-pr 123 full --context docs/glossary.md --context docs/spec/billing.md
+/review-pr 1234 full --context docs/glossary.md --context docs/spec/billing.md
 /review-pr {URL} design --context .claude/skills/billing-domain/SKILL.md
 ```
 
@@ -294,9 +294,9 @@ paths: /**/*.rb, /**/*.rake
 に保存されます。ブランチ名に含まれる `/` などは `-` に置換されます。実行完了時に**絶対パスが出力される**ので、ターミナルからクリックして開けます。
 
 ```markdown
-# PR #123 コードレビュー - 検索機能の追加
+# PR #1234 コードレビュー - 検索機能の追加
 
-- **PR**: https://github.com/{owner}/{repo}/pull/123
+- **PR**: https://github.com/{owner}/{repo}/pull/1234
 - **ブランチ**: `feature-add-search`
 - **レビュー済みコミット**: `a1b2c3...`
 - **コミット数**: 7
@@ -304,7 +304,7 @@ paths: /**/*.rb, /**/*.rake
 
 ## PRの理解
 
-**関連Issue**: https://github.com/{owner}/{repo}/issues/45
+**関連Issue**: https://github.com/{owner}/{repo}/issues/5678
 
 ### 背景 / ### 目的 / ### 対応方法
 
@@ -396,13 +396,13 @@ paths: /**/*.rb, /**/*.rake
 
 ```
 # スキルにまとめてある場合
-/review-pr 123 --context .claude/skills/billing-domain/SKILL.md
+/review-pr 1234 --context .claude/skills/billing-domain/SKILL.md
 
 # プロジェクトのドキュメントをそのまま渡す
-/review-pr 123 --context docs/glossary.md
+/review-pr 1234 --context docs/glossary.md
 
 # 複数指定もできます
-/review-pr 123 --context docs/glossary.md --context docs/spec/billing.md
+/review-pr 1234 --context docs/glossary.md --context docs/spec/billing.md
 ```
 
 渡せるものの例:
