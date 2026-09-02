@@ -1,0 +1,10 @@
+{
+  "name": "implement-issue",
+  "description": "スペック駆動開発で GitHub issue の実装を自律的に進めるコマンド集。requirements / design / tasklist を唯一の正とし、承認ゲートを挟みながら実装まで走らせる。",
+  "version": "0.4.0",
+  "author": {
+    "name": "Keigo Kunitomo"
+  },
+  "homepage": "https://github.com/Keig0-Kunitom0/my_claude",
+  "repository": "https://github.com/Keig0-Kunitom0/my_claude"
+}

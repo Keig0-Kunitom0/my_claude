@@ -1,0 +1,10 @@
+{
+  "name": "wt",
+  "description": "git worktree と herdr ワークスペースを作り、そこで新しい Claude セッションを立ててタスクを投入するコマンド集。カレント HEAD を起点に、実装・レビューを本体リポジトリと切り離して並行実行する。",
+  "version": "0.1.0",
+  "author": {
+    "name": "Keigo Kunitomo"
+  },
+  "homepage": "https://github.com/Keig0-Kunitom0/my_claude",
+  "repository": "https://github.com/Keig0-Kunitom0/my_claude"
+}

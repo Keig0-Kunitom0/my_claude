@@ -1,0 +1,43 @@
+{
+  "name": "my-claude",
+  "owner": {
+    "name": "Keigo Kunitomo",
+    "url": "https://github.com/Keig0-Kunitom0"
+  },
+  "description": "Claude Code のワークフロー系プラグインを配布するカタログ",
+  "plugins": [
+    {
+      "name": "implement-issue",
+      "source": "./implement-issue",
+      "description": "スペック駆動開発で GitHub issue の実装を自律的に進めるコマンド集。requirements / design / tasklist を唯一の正とし、承認ゲートを挟みながら実装まで走らせる。",
+      "version": "0.4.0",
+      "author": {
+        "name": "Keigo Kunitomo"
+      },
+      "category": "workflow",
+      "tags": ["spec-driven-development", "github-issue", "workflow"]
+    },
+    {
+      "name": "review-pr",
+      "source": "./review-pr",
+      "description": "PR を11の専門サブエージェントに並列でレビューさせ、結果を集約して Markdown に永続化するコマンド。2回目以降は前回レビュー時点からの増分だけを見る。",
+      "version": "0.4.1",
+      "author": {
+        "name": "Keigo Kunitomo"
+      },
+      "category": "workflow",
+      "tags": ["code-review", "pull-request", "subagents", "workflow"]
+    },
+    {
+      "name": "wt",
+      "source": "./wt",
+      "description": "git worktree と herdr ワークスペースを作り、そこで新しい Claude セッションを立ててタスクを投入するコマンド集。カレント HEAD を起点に、実装・レビューを本体リポジトリと切り離して並行実行する。",
+      "version": "0.1.0",
+      "author": {
+        "name": "Keigo Kunitomo"
+      },
+      "category": "workflow",
+      "tags": ["git-worktree", "herdr", "parallel", "workflow"]
+    }
+  ]
+}
