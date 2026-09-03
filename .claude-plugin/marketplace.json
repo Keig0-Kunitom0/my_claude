@@ -21,7 +21,7 @@
       "name": "review-pr",
       "source": "./review-pr",
       "description": "PR を11の専門サブエージェントに並列でレビューさせ、結果を集約して Markdown に永続化するコマンド。2回目以降は前回レビュー時点からの増分だけを見る。",
-      "version": "0.4.1",
+      "version": "0.5.0",
       "author": {
         "name": "Keigo Kunitomo"
       },
